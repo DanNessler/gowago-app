@@ -47,16 +47,9 @@ export default function HomePage() {
       <main className="pt-20 space-y-4">
 
         {/* [1] Hero */}
-        <section className="section-block bg-white px-8 py-20 md:py-28">
+        <section className="section-block bg-white px-8 py-10 md:py-16">
           <div className="max-w-4xl mx-auto text-center">
             <motion.div variants={stagger} initial="initial" animate="animate">
-              <motion.div variants={fadeUp}>
-                <span className="inline-flex items-center gap-2 bg-pastel-purple text-primary px-5 py-2 rounded-full text-sm font-semibold mb-8">
-                  <span className="material-symbols-outlined" style={{ fontSize: '16px' }}>auto_awesome</span>
-                  your new car awaits you.
-                </span>
-              </motion.div>
-
               <motion.h1
                 variants={fadeUp}
                 className="font-headline font-extrabold text-4xl md:text-6xl lg:text-7xl text-on-surface leading-tight mb-6"

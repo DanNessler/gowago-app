@@ -76,7 +76,7 @@ export default function SearchBar({ large = false, dropUp = false }) {
             onFocus={() => setFocused(true)}
             onBlur={() => setTimeout(() => setFocused(false), 200)}
             onKeyDown={handleKeyDown}
-            placeholder="Ford SUV, Sedan, Electric..."
+            placeholder="Try BMW, Porsche 911, Tesla, SUV..."
             className={`flex-1 bg-transparent outline-none text-on-surface placeholder-outline ${large ? 'text-lg' : 'text-base'}`}
             aria-label="Search for cars"
             aria-autocomplete="list"

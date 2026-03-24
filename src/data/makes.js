@@ -2,13 +2,16 @@ export const CAR_SUGGESTIONS = [
   // Makes
   'Audi', 'BMW', 'Mercedes', 'Porsche', 'Tesla', 'Volkswagen', 'Volvo', 'MINI', 'Mazda', 'Toyota',
   // Types
-  'SUV', 'Sedan', 'Convertible', 'Electric', 'Coupe', 'Wagon', 'Sports Car',
-  // Popular combos
-  'BMW SUV', 'Audi Electric', 'Porsche Coupe', 'Tesla Model Y', 'BMW M Series',
-  'Mercedes SUV', 'Audi Q Series', 'VW Electric', 'Volvo SUV', 'MINI Convertible',
-  // Price segments
-  'Under CHF 400', 'Under CHF 600', 'Under CHF 800', 'Luxury over CHF 1000',
-  // Specific models
-  'BMW M3', 'Porsche 911', 'Tesla Model 3', 'Audi RS6', 'VW Golf R',
-  'Porsche Taycan', 'Audi e-tron GT', 'BMW i4', 'Volvo XC90', 'Mercedes EQS',
+  'SUV', 'Sedan', 'Convertible', 'Electric', 'Coupe',
+  // Popular combos (all matching actual cars in the catalogue)
+  'BMW M3', 'BMW X5', 'BMW i4', 'BMW Z4',
+  'Audi RS6', 'Audi e-tron', 'Audi Q8', 'Audi TT',
+  'Porsche 911', 'Porsche Taycan', 'Porsche Macan',
+  'Tesla Model Y', 'Tesla Model 3',
+  'Mercedes GLE', 'Mercedes EQS', 'Mercedes GLC',
+  'Volkswagen ID.4', 'Volkswagen Golf R', 'Volkswagen ID.3',
+  'Volvo XC90', 'Volvo C40',
+  'MINI Cooper', 'MINI Clubman',
+  'Mazda MX-5', 'Mazda CX-60',
+  'Toyota RAV4', 'Toyota GR86',
 ]
