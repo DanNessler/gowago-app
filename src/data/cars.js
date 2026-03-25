@@ -264,8 +264,8 @@ export const cars = [
     image: 'https://images.unsplash.com/photo-1541899481282-d53bffe3c35d?w=800&q=80',
     images: [
       'https://images.unsplash.com/photo-1541899481282-d53bffe3c35d?w=800&q=80',
-      'https://images.unsplash.com/photo-1617704548623-340376564e68?w=800&q=80',
-      'https://images.unsplash.com/photo-1590362891991-f776e747a588?w=800&q=80'
+      'https://images.unsplash.com/photo-1541899481282-d53bffe3c35d?w=800&q=80',
+      'https://images.unsplash.com/photo-1617704548623-340376564e68?w=800&q=80'
     ],
     badge: 'New Arrival',
     rating: 4.7,
@@ -589,11 +589,11 @@ export const cars = [
     residualValue: 24000,
     horsepower: 408,
     acceleration: '4.9s',
-    image: 'https://images.unsplash.com/photo-1609521263047-f8f205293f24?w=800&q=80',
+    image: 'https://live.staticflickr.com/65535/53794039672_0c01c18dbc_b.jpg?w=800&q=80',
     images: [
-      'https://images.unsplash.com/photo-1609521263047-f8f205293f24?w=800&q=80',
-      'https://images.unsplash.com/photo-1541899481282-d53bffe3c35d?w=800&q=80',
-      'https://images.unsplash.com/photo-1590362891991-f776e747a588?w=800&q=80'
+      'https://live.staticflickr.com/65535/53794039672_0c01c18dbc_b.jpg?w=800&q=80',
+      'https://live.staticflickr.com/65535/53794039672_0c01c18dbc_b.jpg?w=800&q=80',
+      'https://live.staticflickr.com/65535/53794039672_0c01c18dbc_b.jpg?w=800&q=80'
     ],
     badge: 'Hot Deal',
     rating: 4.6,
