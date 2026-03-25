@@ -19,7 +19,7 @@ export const cars = [
     images: [
       'https://images.unsplash.com/photo-1555215695-3004980ad54e?w=800&q=80',
       'https://images.unsplash.com/photo-1555215695-3004980ad54e?w=800&q=80',
-      'https://images.unsplash.com/photo-1607853202273-797f1c22a38e?w=800&q=80'
+      'https://images.unsplash.com/photo-1555215695-3004980ad54e?w=800&q=80'
     ],
     badge: 'Performance',
     rating: 4.9,
@@ -97,11 +97,11 @@ export const cars = [
     residualValue: 32000,
     horsepower: 456,
     acceleration: '3.7s',
-    image: 'https://images.unsplash.com/photo-1619767886558-efdc259cde1a?w=800&q=80',
+    image: 'https://sfgwraps.com/wp-content/uploads/2024/11/4-5.jpg?w=800&q=80',
     images: [
-      'https://images.unsplash.com/photo-1619767886558-efdc259cde1a?w=800&q=80',
-      'https://images.unsplash.com/photo-1593941707882-a5bba14938c7?w=800&q=80',
-      'https://images.unsplash.com/photo-1609521263047-f8f205293f24?w=800&q=80'
+      'https://sfgwraps.com/wp-content/uploads/2024/11/4-5.jpg?w=800&q=80',
+      'https://sfgwraps.com/wp-content/uploads/2024/11/4-5.jpg?w=800&q=80',
+      'https://sfgwraps.com/wp-content/uploads/2024/11/4-5.jpg?w=800&q=80'
     ],
     badge: 'Hot Deal',
     rating: 4.7,
@@ -142,7 +142,7 @@ export const cars = [
     images: [
       'https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?w=800&q=80',
       'https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?w=800&q=80',
-      'https://images.unsplash.com/photo-1617814076367-b759c7d7e738?w=800&q=80'
+      'https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?w=800&q=80'
     ],
     badge: 'Popular Pick',
     rating: 4.8,
@@ -179,11 +179,11 @@ export const cars = [
     residualValue: 58000,
     horsepower: 435,
     acceleration: '5.3s',
-    image: 'https://images.unsplash.com/photo-1617704548623-340376564e68?w=800&q=80',
+    image: 'https://live.staticflickr.com/65535/50263451278_1540b53f23_b.jpg?w=800&q=80',
     images: [
-      'https://images.unsplash.com/photo-1617704548623-340376564e68?w=800&q=80',
-      'https://images.unsplash.com/photo-1617704548623-340376564e68?w=800&q=80',
-      'https://images.unsplash.com/photo-1617704548623-340376564e68?w=800&q=80'
+      'https://live.staticflickr.com/65535/50263451278_1540b53f23_b.jpg?w=800&q=80',
+      'https://live.staticflickr.com/65535/50263451278_1540b53f23_b.jpg?w=800&q=80',
+      'https://live.staticflickr.com/65535/50263451278_1540b53f23_b.jpg?w=800&q=80'
     ],
     badge: null,
     rating: 4.6,
@@ -261,11 +261,11 @@ export const cars = [
     residualValue: 42000,
     horsepower: 455,
     acceleration: '5.6s',
-    image: 'https://images.unsplash.com/photo-1541899481282-d53bffe3c35d?w=800&q=80',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/9/96/Volvo_XC90_1.jpg?w=800&q=80',
     images: [
-      'https://images.unsplash.com/photo-1541899481282-d53bffe3c35d?w=800&q=80',
-      'https://images.unsplash.com/photo-1541899481282-d53bffe3c35d?w=800&q=80',
-      'https://images.unsplash.com/photo-1617704548623-340376564e68?w=800&q=80'
+      'https://upload.wikimedia.org/wikipedia/commons/9/96/Volvo_XC90_1.jpg?w=800&q=80',
+      'https://upload.wikimedia.org/wikipedia/commons/9/96/Volvo_XC90_1.jpg?w=800&q=80',
+      'https://upload.wikimedia.org/wikipedia/commons/9/96/Volvo_XC90_1.jpg?w=800&q=80'
     ],
     badge: 'New Arrival',
     rating: 4.7,
@@ -302,11 +302,11 @@ export const cars = [
     residualValue: 14000,
     horsepower: 178,
     acceleration: '7.1s',
-    image: 'https://images.unsplash.com/photo-1552519507-da3b142c6e3d?w=800&q=80',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/c/c4/MINI_Cooper_S_Convertible_2005.jpg?w=800&q=80',
     images: [
-      'https://images.unsplash.com/photo-1552519507-da3b142c6e3d?w=800&q=80',
-      'https://images.unsplash.com/photo-1580274455191-1c62238fa333?w=800&q=80',
-      'https://images.unsplash.com/photo-1544636331-e26879cd4d9b?w=800&q=80'
+      'https://upload.wikimedia.org/wikipedia/commons/c/c4/MINI_Cooper_S_Convertible_2005.jpg?w=800&q=80',
+      'https://upload.wikimedia.org/wikipedia/commons/c/c4/MINI_Cooper_S_Convertible_2005.jpg?w=800&q=80',
+      'https://upload.wikimedia.org/wikipedia/commons/c/c4/MINI_Cooper_S_Convertible_2005.jpg?w=800&q=80'
     ],
     badge: null,
     rating: 4.5,
@@ -343,11 +343,11 @@ export const cars = [
     residualValue: 12000,
     horsepower: 184,
     acceleration: '7.0s',
-    image: 'https://images.unsplash.com/photo-1580274455191-1c62238fa333?w=800&q=80',
+    image: 'https://www.publicdomainpictures.net/pictures/270000/nahled/mazda-mx5-convertible-car.jpg?w=800&q=80',
     images: [
-      'https://images.unsplash.com/photo-1580274455191-1c62238fa333?w=800&q=80',
-      'https://images.unsplash.com/photo-1552519507-da3b142c6e3d?w=800&q=80',
-      'https://images.unsplash.com/photo-1544636331-e26879cd4d9b?w=800&q=80'
+      'https://www.publicdomainpictures.net/pictures/270000/nahled/mazda-mx5-convertible-car.jpg?w=800&q=80',
+      'https://www.publicdomainpictures.net/pictures/270000/nahled/mazda-mx5-convertible-car.jpg?w=800&q=80',
+      'https://www.publicdomainpictures.net/pictures/270000/nahled/mazda-mx5-convertible-car.jpg?w=800&q=80'
     ],
     badge: null,
     rating: 4.8,
@@ -384,11 +384,11 @@ export const cars = [
     residualValue: 24000,
     horsepower: 306,
     acceleration: '6.0s',
-    image: 'https://images.unsplash.com/photo-1590362891991-f776e747a588?w=800&q=80',
+    image: 'https://www.universaltoyota.com/static/brand-toyota/vehicle/2025/Toyota/Rav4/MRP/01.jpg?width=?w=800&q=80',
     images: [
-      'https://images.unsplash.com/photo-1590362891991-f776e747a588?w=800&q=80',
-      'https://images.unsplash.com/photo-1541899481282-d53bffe3c35d?w=800&q=80',
-      'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80'
+      'https://www.universaltoyota.com/static/brand-toyota/vehicle/2025/Toyota/Rav4/MRP/01.jpg?width=?w=800&q=80',
+      'https://www.universaltoyota.com/static/brand-toyota/vehicle/2025/Toyota/Rav4/MRP/01.jpg?width=?w=800&q=80',
+      'https://www.universaltoyota.com/static/brand-toyota/vehicle/2025/Toyota/Rav4/MRP/01.jpg?width=?w=800&q=80'
     ],
     badge: null,
     rating: 4.6,
@@ -425,11 +425,11 @@ export const cars = [
     residualValue: 72000,
     horsepower: 646,
     acceleration: '3.3s',
-    image: 'https://images.unsplash.com/photo-1614162692292-7ac56d7f7f1e?w=800&q=80',
+    image: 'https://source.roboflow.com/ADkgWoKVRHW3p8o8nven71XTwoD3/2X76sl0oq3cXpwyv8uwC/original.jpg?w=800&q=80',
     images: [
-      'https://images.unsplash.com/photo-1614162692292-7ac56d7f7f1e?w=800&q=80',
-      'https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?w=800&q=80',
-      'https://images.unsplash.com/photo-1617814076367-b759c7d7e738?w=800&q=80'
+      'https://source.roboflow.com/ADkgWoKVRHW3p8o8nven71XTwoD3/2X76sl0oq3cXpwyv8uwC/original.jpg?w=800&q=80',
+      'https://source.roboflow.com/ADkgWoKVRHW3p8o8nven71XTwoD3/2X76sl0oq3cXpwyv8uwC/original.jpg?w=800&q=80',
+      'https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?w=800&q=80'
     ],
     badge: 'Performance',
     rating: 4.9,
@@ -469,8 +469,8 @@ export const cars = [
     image: 'https://images.unsplash.com/photo-1556800572-1b8aeef2c54f?w=800&q=80',
     images: [
       'https://images.unsplash.com/photo-1556800572-1b8aeef2c54f?w=800&q=80',
-      'https://images.unsplash.com/photo-1555215695-3004980ad54e?w=800&q=80',
-      'https://images.unsplash.com/photo-1607853202273-797f1c22a38e?w=800&q=80'
+      'https://images.unsplash.com/photo-1556800572-1b8aeef2c54f?w=800&q=80',
+      'https://images.unsplash.com/photo-1555215695-3004980ad54e?w=800&q=80'
     ],
     badge: null,
     rating: 4.7,
@@ -507,10 +507,10 @@ export const cars = [
     residualValue: 62000,
     horsepower: 333,
     acceleration: '6.2s',
-    image: 'https://images.unsplash.com/photo-1616422285623-13ff0162193c?w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?w=800&q=80',
     images: [
-      'https://images.unsplash.com/photo-1616422285623-13ff0162193c?w=800&q=80',
-      'https://images.unsplash.com/photo-1617704548623-340376564e68?w=800&q=80',
+      'https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?w=800&q=80',
+      'https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?w=800&q=80',
       'https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?w=800&q=80'
     ],
     badge: 'New Arrival',
@@ -548,11 +548,11 @@ export const cars = [
     residualValue: 62000,
     horsepower: 571,
     acceleration: '4.0s',
-    image: 'https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?w=800&q=80',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/9/96/2022_Porsche_Taycan_Turbo.jpg?w=800&q=80',
     images: [
-      'https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?w=800&q=80',
-      'https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=800&q=80',
-      'https://images.unsplash.com/photo-1544636331-e26879cd4d9b?w=800&q=80'
+      'https://upload.wikimedia.org/wikipedia/commons/9/96/2022_Porsche_Taycan_Turbo.jpg?w=800&q=80',
+      'https://upload.wikimedia.org/wikipedia/commons/9/96/2022_Porsche_Taycan_Turbo.jpg?w=800&q=80',
+      'https://imaghttps://upload.wikimedia.org/wikipedia/commons/9/96/2022_Porsche_Taycan_Turbo.jpg?w=800&q=80es.unsplash.com/photo-1618843479313-40f8afb4b4d8?w=800&q=80'
     ],
     badge: null,
     rating: 4.9,
@@ -630,11 +630,11 @@ export const cars = [
     residualValue: 30000,
     horsepower: 204,
     acceleration: '7.9s',
-    image: 'https://images.unsplash.com/photo-1617814076367-b759c7d7e738?w=800&q=80',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/4/44/Audi_A6_Avant_front.jpg?w=800&q=80',
     images: [
-      'https://images.unsplash.com/photo-1617814076367-b759c7d7e738?w=800&q=80',
-      'https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?w=800&q=80',
-      'https://images.unsplash.com/photo-1614162692292-7ac56d7f7f1e?w=800&q=80'
+      'https://upload.wikimedia.org/wikipedia/commons/4/44/Audi_A6_Avant_front.jpg?w=800&q=80',
+      'https://upload.wikimedia.org/wikipedia/commons/4/44/Audi_A6_Avant_front.jpg?w=800&q=80',
+      'https://upload.wikimedia.org/wikipedia/commons/4/44/Audi_A6_Avant_front.jpg?w=800&q=80'
     ],
     badge: null,
     rating: 4.5,
@@ -671,11 +671,11 @@ export const cars = [
     residualValue: 42000,
     horsepower: 544,
     acceleration: '3.9s',
-    image: 'https://images.unsplash.com/photo-1607853202273-797f1c22a38e?w=800&q=80',
+    image: 'https://freerangestock.com/sample/124232/new-car--bmw-.jpg?w=800&q=80',
     images: [
-      'https://images.unsplash.com/photo-1607853202273-797f1c22a38e?w=800&q=80',
-      'https://images.unsplash.com/photo-1555215695-3004980ad54e?w=800&q=80',
-      'https://images.unsplash.com/photo-1556800572-1b8aeef2c54f?w=800&q=80'
+      'https://freerangestock.com/sample/124232/new-car--bmw-.jpg?w=800&q=80',
+      'https://freerangestock.com/sample/124232/new-car--bmw-.jpg?w=800&q=80',
+      'https://images.unsplash.com/photo-1555215695-3004980ad54e?w=800&q=80'
     ],
     badge: 'Performance',
     rating: 4.8,
@@ -715,8 +715,8 @@ export const cars = [
     image: 'https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?w=800&q=80',
     images: [
       'https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?w=800&q=80',
-      'https://images.unsplash.com/photo-1616422285623-13ff0162193c?w=800&q=80',
-      'https://images.unsplash.com/photo-1617704548623-340376564e68?w=800&q=80'
+      'https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?w=800&q=80',
+      'https://images.unsplash.com/photo-1616422285623-13ff0162193c?w=800&q=80'
     ],
     badge: null,
     rating: 4.6,
@@ -753,11 +753,11 @@ export const cars = [
     residualValue: 23000,
     horsepower: 333,
     acceleration: '4.7s',
-    image: 'https://images.unsplash.com/photo-1609521263047-f8f205293f24?w=800&q=80',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/6/64/Volkswagen_R_car_4.png?w=800&q=80',
     images: [
-      'https://images.unsplash.com/photo-1609521263047-f8f205293f24?w=800&q=80',
-      'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80',
-      'https://images.unsplash.com/photo-1580274455191-1c62238fa333?w=800&q=80'
+      'https://upload.wikimedia.org/wikipedia/commons/6/64/Volkswagen_R_car_4.png?w=800&q=80',
+      'https://upload.wikimedia.org/wikipedia/commons/6/64/Volkswagen_R_car_4.png?w=800&q=80',
+      'https://upload.wikimedia.org/wikipedia/commons/6/64/Volkswagen_R_car_4.png?w=800&q=80'
     ],
     badge: 'Hot Deal',
     rating: 4.7,
@@ -794,11 +794,11 @@ export const cars = [
     residualValue: 16000,
     horsepower: 234,
     acceleration: '6.3s',
-    image: 'https://images.unsplash.com/photo-1544636331-e26879cd4d9b?w=800&q=80',
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJFZt27avi86lxwjbI9KN2I2aCghc7oikxLQ&s?w=800&q=80',
     images: [
-      'https://images.unsplash.com/photo-1544636331-e26879cd4d9b?w=800&q=80',
-      'https://images.unsplash.com/photo-1580274455191-1c62238fa333?w=800&q=80',
-      'https://images.unsplash.com/photo-1552519507-da3b142c6e3d?w=800&q=80'
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJFZt27avi86lxwjbI9KN2I2aCghc7oikxLQ&s?w=800&q=80',
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJFZt27avi86lxwjbI9KN2I2aCghc7oikxLQ&s?w=800&q=80',
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJFZt27avi86lxwjbI9KN2I2aCghc7oikxLQ&s?w=800&q=80'
     ],
     badge: null,
     rating: 4.7,
@@ -838,8 +838,8 @@ export const cars = [
     image: 'https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?w=800&q=80',
     images: [
       'https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?w=800&q=80',
-      'https://images.unsplash.com/photo-1617814076367-b759c7d7e738?w=800&q=80',
-      'https://images.unsplash.com/photo-1614162692292-7ac56d7f7f1e?w=800&q=80'
+      'https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?w=800&q=80',
+      'https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?w=800&q=80'
     ],
     badge: null,
     rating: 4.6,
@@ -876,11 +876,11 @@ export const cars = [
     residualValue: 26000,
     horsepower: 292,
     acceleration: '5.6s',
-    image: 'https://images.unsplash.com/photo-1617814076367-b759c7d7e738?w=800&q=80',
+    image: 'https://live.staticflickr.com/2655/5765013265_3c1b13fbfd_b.jpg?w=800&q=80',
     images: [
-      'https://images.unsplash.com/photo-1617814076367-b759c7d7e738?w=800&q=80',
-      'https://images.unsplash.com/photo-1555215695-3004980ad54e?w=800&q=80',
-      'https://images.unsplash.com/photo-1607853202273-797f1c22a38e?w=800&q=80'
+      'https://live.staticflickr.com/2655/5765013265_3c1b13fbfd_b.jpg?w=800&q=80',
+      'https://live.staticflickr.com/2655/5765013265_3c1b13fbfd_b.jpg?w=800&q=80',
+      'https://live.staticflickr.com/2655/5765013265_3c1b13fbfd_b.jpg?w=800&q=80'
     ],
     badge: null,
     rating: 4.5,
@@ -920,8 +920,8 @@ export const cars = [
     image: 'https://images.unsplash.com/photo-1617704548623-340376564e68?w=800&q=80',
     images: [
       'https://images.unsplash.com/photo-1617704548623-340376564e68?w=800&q=80',
-      'https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?w=800&q=80',
-      'https://images.unsplash.com/photo-1616422285623-13ff0162193c?w=800&q=80'
+      'https://images.unsplash.com/photo-1617704548623-340376564e68?w=800&q=80',
+      'https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?w=800&q=80'
     ],
     badge: null,
     rating: 4.6,
@@ -1327,11 +1327,11 @@ export const cars = [
     residualValue: 65000,
     horsepower: 525,
     acceleration: '5.0s',
-    image: 'https://upload.wikimedia.org/wikipedia/commons/d/d0/LandRoverDefender.JPG',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/d/d0/LandRoverDefender.JPG?w=800&q=80',
     images: [
-      'https://upload.wikimedia.org/wikipedia/commons/d/d0/LandRoverDefender.JPG',
-      'https://upload.wikimedia.org/wikipedia/commons/d/d0/LandRoverDefender.JPG',
-      'https://upload.wikimedia.org/wikipedia/commons/d/d0/LandRoverDefender.JPG'
+      'https://upload.wikimedia.org/wikipedia/commons/d/d0/LandRoverDefender.JPG?w=800&q=80',
+      'https://upload.wikimedia.org/wikipedia/commons/d/d0/LandRoverDefender.JPG?w=800&q=80',
+      'https://upload.wikimedia.org/wikipedia/commons/d/d0/LandRoverDefender.JPG?w=800&q=80'
     ],
     badge: 'Popular Pick',
     rating: 4.7,
