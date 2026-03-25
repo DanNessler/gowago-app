@@ -3,13 +3,11 @@ export const homeContent = {
     headline: 'Get your next ride faster than a parking ticket.',
     subtext: 'Starting as low as',
     price: 'CHF 149.-/month.',
-    priceNote: 'Over 30 premium cars. Zero BS.',
+    priceNote: 'Cheaper than your health insurance.',
     filterTags: [
-      'SUV',
-      'Electric',
-      'Sedan',
-      'Convertible',
-      'Coupe'
+      'Search for your next... Porsche',
+      'Tesla',
+      'BMW etc...'
     ],
   },
   hotDeals: { title: '🔥 Smoking hot deals', subtitle: 'Limited time offers — before they\'re gone' },

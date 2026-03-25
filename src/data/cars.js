@@ -59,8 +59,8 @@ export const cars = [
     image: 'https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=800&q=80',
     images: [
       'https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=800&q=80',
-      'https://images.unsplash.com/photo-1544636331-e26879cd4d9b?w=800&q=80',
-      'https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?w=800&q=80'
+      'https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=800&q=80',
+      'https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=800&q=80'
     ],
     badge: 'Popular Pick',
     rating: 4.9,
@@ -141,8 +141,8 @@ export const cars = [
     image: 'https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?w=800&q=80',
     images: [
       'https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?w=800&q=80',
-      'https://images.unsplash.com/photo-1617814076367-b759c7d7e738?w=800&q=80',
-      'https://images.unsplash.com/photo-1614162692292-7ac56d7f7f1e?w=800&q=80'
+      'https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?w=800&q=80',
+      'https://images.unsplash.com/photo-1617814076367-b759c7d7e738?w=800&q=80'
     ],
     badge: 'Popular Pick',
     rating: 4.8,
@@ -182,8 +182,8 @@ export const cars = [
     image: 'https://images.unsplash.com/photo-1617704548623-340376564e68?w=800&q=80',
     images: [
       'https://images.unsplash.com/photo-1617704548623-340376564e68?w=800&q=80',
-      'https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?w=800&q=80',
-      'https://images.unsplash.com/photo-1616422285623-13ff0162193c?w=800&q=80'
+      'https://images.unsplash.com/photo-1617704548623-340376564e68?w=800&q=80',
+      'https://images.unsplash.com/photo-1617704548623-340376564e68?w=800&q=80'
     ],
     badge: null,
     rating: 4.6,
@@ -220,11 +220,11 @@ export const cars = [
     residualValue: 22000,
     horsepower: 299,
     acceleration: '6.2s',
-    image: 'https://upload.wikimedia.org/wikipedia/commons/c/c8/Volkswagen_ID.4.png',
+    image: 'https://vehicle-images.dealerinspire.com/06d1-110010337/thumbnails/large/1V2KC2CA7TC200360/80978f2fd78ed22eb9aa294d96e04ae4.jpg',
     images: [
-      'https://upload.wikimedia.org/wikipedia/commons/c/c8/Volkswagen_ID.4.png',
-      'https://upload.wikimedia.org/wikipedia/commons/c/c8/Volkswagen_ID.4.png',
-      'https://upload.wikimedia.org/wikipedia/commons/c/c8/Volkswagen_ID.4.png'
+      'https://vehicle-images.dealerinspire.com/06d1-110010337/thumbnails/large/1V2KC2CA7TC200360/80978f2fd78ed22eb9aa294d96e04ae4.jpg',
+      'https://vehicle-images.dealerinspire.com/06d1-110010337/thumbnails/large/1V2KC2CA7TC200360/80978f2fd78ed22eb9aa294d96e04ae4.jpg',
+      'https://vehicle-images.dealerinspire.com/06d1-110010337/thumbnails/large/1V2KC2CA7TC200360/80978f2fd78ed22eb9aa294d96e04ae4.jpg'
     ],
     badge: 'Hot Deal',
     rating: 4.4,
