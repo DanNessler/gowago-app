@@ -18,15 +18,25 @@ export const cars = [
     image: 'https://images.unsplash.com/photo-1555215695-3004980ad54e?w=800&q=80',
     images: [
       'https://images.unsplash.com/photo-1555215695-3004980ad54e?w=800&q=80',
-      'https://images.unsplash.com/photo-1607853202273-797f1c22a38e?w=800&q=80',
-      'https://images.unsplash.com/photo-1556800572-1b8aeef2c54f?w=800&q=80',
+      'https://images.unsplash.com/photo-1555215695-3004980ad54e?w=800&q=80',
+      'https://images.unsplash.com/photo-1607853202273-797f1c22a38e?w=800&q=80'
     ],
     badge: 'Performance',
     rating: 4.9,
     description: 'The BMW M3 Competition is the ultimate sports sedan, blending everyday usability with track-ready performance. Its twin-turbocharged inline-6 engine produces 510 hp, launching the car to 100 km/h in just 3.5 seconds via M xDrive all-wheel drive.',
     features: {
-      performance: ['510 hp Twin-Turbo Inline-6', '0-100 in 3.5s', 'M xDrive AWD', 'Adaptive M Suspension'],
-      interior: ['M Carbon Bucket Seats', 'Harman Kardon Sound', 'Merino Leather', 'BMW Live Cockpit Pro'],
+      performance: [
+      '510 hp Twin-Turbo Inline-6',
+      '0-100 in 3.5s',
+      'M xDrive AWD',
+      'Adaptive M Suspension'
+    ],
+      interior: [
+      'M Carbon Bucket Seats',
+      'Harman Kardon Sound',
+      'Merino Leather',
+      'BMW Live Cockpit Pro'
+    ]
     },
     available: true,
   },
@@ -50,14 +60,24 @@ export const cars = [
     images: [
       'https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=800&q=80',
       'https://images.unsplash.com/photo-1544636331-e26879cd4d9b?w=800&q=80',
-      'https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?w=800&q=80',
+      'https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?w=800&q=80'
     ],
     badge: 'Popular Pick',
     rating: 4.9,
     description: 'Timeless, precise, and exhilarating. The Porsche 911 Carrera S continues the legacy of one of the world\'s most iconic sports cars. With its rear-mounted flat-6 engine and trademark driving dynamics, every journey becomes an event.',
     features: {
-      performance: ['450 hp Flat-6 Twin-Turbo', '0-100 in 3.7s', 'Porsche Active Suspension', 'Sport Chrono Package'],
-      interior: ['14-way Adaptive Sport Seats', 'Bose Surround Sound', 'PCCB Brakes', 'PCM Navigation'],
+      performance: [
+      '450 hp Flat-6 Twin-Turbo',
+      '0-100 in 3.7s',
+      'Porsche Active Suspension',
+      'Sport Chrono Package'
+    ],
+      interior: [
+      '14-way Adaptive Sport Seats',
+      'Bose Surround Sound',
+      'PCCB Brakes',
+      'PCM Navigation'
+    ]
     },
     available: true,
   },
@@ -81,14 +101,24 @@ export const cars = [
     images: [
       'https://images.unsplash.com/photo-1619767886558-efdc259cde1a?w=800&q=80',
       'https://images.unsplash.com/photo-1593941707882-a5bba14938c7?w=800&q=80',
-      'https://images.unsplash.com/photo-1609521263047-f8f205293f24?w=800&q=80',
+      'https://images.unsplash.com/photo-1609521263047-f8f205293f24?w=800&q=80'
     ],
     badge: 'Hot Deal',
     rating: 4.7,
     description: 'The Tesla Model Y Performance redefines what an electric SUV can be. With dual-motor AWD, over 500 km of range, and the ever-expanding Supercharger network, it\'s the most capable electric crossover on Swiss roads.',
     features: {
-      performance: ['456 hp Dual Motor AWD', '0-100 in 3.7s', '514 km WLTP Range', 'Autopilot'],
-      interior: ['15.4" Touchscreen', 'Premium Audio', 'Glass Roof', 'Full Self-Driving capability'],
+      performance: [
+      '456 hp Dual Motor AWD',
+      '0-100 in 3.7s',
+      '514 km WLTP Range',
+      'Autopilot'
+    ],
+      interior: [
+      '15.4" Touchscreen',
+      'Premium Audio',
+      'Glass Roof',
+      'Full Self-Driving capability'
+    ]
     },
     available: true,
   },
@@ -112,14 +142,24 @@ export const cars = [
     images: [
       'https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?w=800&q=80',
       'https://images.unsplash.com/photo-1617814076367-b759c7d7e738?w=800&q=80',
-      'https://images.unsplash.com/photo-1614162692292-7ac56d7f7f1e?w=800&q=80',
+      'https://images.unsplash.com/photo-1614162692292-7ac56d7f7f1e?w=800&q=80'
     ],
     badge: 'Popular Pick',
     rating: 4.8,
     description: 'Practicality meets supercar performance. The Audi RS6 Avant blends wagon versatility with a 600 hp twin-turbo V8, making it the ultimate family car for those who refuse to compromise.',
     features: {
-      performance: ['600 hp 4.0L V8 Biturbo', '0-100 in 3.6s', 'Quattro Sport AWD', 'RS Adaptive Air Suspension'],
-      interior: ['RS Sport Seats', 'Bang & Olufsen 3D Sound', 'Virtual Cockpit Plus', 'Night Vision Assist'],
+      performance: [
+      '600 hp 4.0L V8 Biturbo',
+      '0-100 in 3.6s',
+      'Quattro Sport AWD',
+      'RS Adaptive Air Suspension'
+    ],
+      interior: [
+      'RS Sport Seats',
+      'Bang & Olufsen 3D Sound',
+      'Virtual Cockpit Plus',
+      'Night Vision Assist'
+    ]
     },
     available: true,
   },
@@ -143,14 +183,24 @@ export const cars = [
     images: [
       'https://images.unsplash.com/photo-1617704548623-340376564e68?w=800&q=80',
       'https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?w=800&q=80',
-      'https://images.unsplash.com/photo-1616422285623-13ff0162193c?w=800&q=80',
+      'https://images.unsplash.com/photo-1616422285623-13ff0162193c?w=800&q=80'
     ],
     badge: null,
     rating: 4.6,
     description: 'The Mercedes-AMG GLE 53 Coupé merges the commanding presence of an SUV with the sleek silhouette of a coupé. Its mild-hybrid powertrain delivers effortless performance while the MBUX infotainment keeps you connected in style.',
     features: {
-      performance: ['435 hp 3.0L Inline-6 Mild Hybrid', '0-100 in 5.3s', '4MATIC+ AWD', 'AMG Ride Control'],
-      interior: ['Nappa Leather', 'Burmester 3D Surround Sound', 'MBUX Hyperscreen', 'Energizing Comfort'],
+      performance: [
+      '435 hp 3.0L Inline-6 Mild Hybrid',
+      '0-100 in 5.3s',
+      '4MATIC+ AWD',
+      'AMG Ride Control'
+    ],
+      interior: [
+      'Nappa Leather',
+      'Burmester 3D Surround Sound',
+      'MBUX Hyperscreen',
+      'Energizing Comfort'
+    ]
     },
     available: true,
   },
@@ -170,18 +220,28 @@ export const cars = [
     residualValue: 22000,
     horsepower: 299,
     acceleration: '6.2s',
-    image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/c/c8/Volkswagen_ID.4.png',
     images: [
-      'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80',
-      'https://images.unsplash.com/photo-1609521263047-f8f205293f24?w=800&q=80',
-      'https://images.unsplash.com/photo-1619767886558-efdc259cde1a?w=800&q=80',
+      'https://upload.wikimedia.org/wikipedia/commons/c/c8/Volkswagen_ID.4.png',
+      'https://upload.wikimedia.org/wikipedia/commons/c/c8/Volkswagen_ID.4.png',
+      'https://upload.wikimedia.org/wikipedia/commons/c/c8/Volkswagen_ID.4.png'
     ],
     badge: 'Hot Deal',
     rating: 4.4,
     description: 'The Volkswagen ID.4 GTX is the sporty, all-electric SUV for everyday adventures. With dual motors, 520 km of range, and the reliability of the VW brand, it\'s the perfect family companion for modern Switzerland.',
     features: {
-      performance: ['299 hp Dual Motor AWD', '0-100 in 6.2s', '520 km WLTP Range', 'DCC Adaptive Chassis'],
-      interior: ['12" Infotainment + HUD', 'Harman Kardon Sound', 'Panoramic Glass Roof', 'ID.Light'],
+      performance: [
+      '299 hp Dual Motor AWD',
+      '0-100 in 6.2s',
+      '520 km WLTP Range',
+      'DCC Adaptive Chassis'
+    ],
+      interior: [
+      '12" Infotainment + HUD',
+      'Harman Kardon Sound',
+      'Panoramic Glass Roof',
+      'ID.Light'
+    ]
     },
     available: true,
   },
@@ -205,14 +265,24 @@ export const cars = [
     images: [
       'https://images.unsplash.com/photo-1541899481282-d53bffe3c35d?w=800&q=80',
       'https://images.unsplash.com/photo-1617704548623-340376564e68?w=800&q=80',
-      'https://images.unsplash.com/photo-1590362891991-f776e747a588?w=800&q=80',
+      'https://images.unsplash.com/photo-1590362891991-f776e747a588?w=800&q=80'
     ],
     badge: 'New Arrival',
     rating: 4.7,
     description: 'Scandinavian luxury meets sustainable performance. The Volvo XC90 Recharge offers a serene cabin, up to 90 km of electric range, and 7-seat practicality. Safety and style in perfect harmony.',
     features: {
-      performance: ['455 hp T8 PHEV AWD', '90 km Electric Range', 'Air Suspension', 'Pilot Assist'],
-      interior: ['Nappa Leather', 'Bowers & Wilkins Audio', 'Google Built-in', 'Crystal Gear Shifter'],
+      performance: [
+      '455 hp T8 PHEV AWD',
+      '90 km Electric Range',
+      'Air Suspension',
+      'Pilot Assist'
+    ],
+      interior: [
+      'Nappa Leather',
+      'Bowers & Wilkins Audio',
+      'Google Built-in',
+      'Crystal Gear Shifter'
+    ]
     },
     available: true,
   },
@@ -236,14 +306,24 @@ export const cars = [
     images: [
       'https://images.unsplash.com/photo-1552519507-da3b142c6e3d?w=800&q=80',
       'https://images.unsplash.com/photo-1580274455191-1c62238fa333?w=800&q=80',
-      'https://images.unsplash.com/photo-1544636331-e26879cd4d9b?w=800&q=80',
+      'https://images.unsplash.com/photo-1544636331-e26879cd4d9b?w=800&q=80'
     ],
     badge: null,
     rating: 4.5,
     description: 'Sun, wind, and pure driving joy. The MINI Cooper S Convertible is the ultimate urban companion. Its retractable roof opens in just 18 seconds, transforming your commute into a highlight of the day.',
     features: {
-      performance: ['178 hp Twin-Scroll Turbo', '0-100 in 7.1s', 'Sport Mode', 'Dynamic Stability Control'],
-      interior: ['Sports Leather Seats', 'Harman Kardon Sound', 'Ambient Lighting', 'MINI Navigation'],
+      performance: [
+      '178 hp Twin-Scroll Turbo',
+      '0-100 in 7.1s',
+      'Sport Mode',
+      'Dynamic Stability Control'
+    ],
+      interior: [
+      'Sports Leather Seats',
+      'Harman Kardon Sound',
+      'Ambient Lighting',
+      'MINI Navigation'
+    ]
     },
     available: true,
   },
@@ -267,14 +347,24 @@ export const cars = [
     images: [
       'https://images.unsplash.com/photo-1580274455191-1c62238fa333?w=800&q=80',
       'https://images.unsplash.com/photo-1552519507-da3b142c6e3d?w=800&q=80',
-      'https://images.unsplash.com/photo-1544636331-e26879cd4d9b?w=800&q=80',
+      'https://images.unsplash.com/photo-1544636331-e26879cd4d9b?w=800&q=80'
     ],
     badge: null,
     rating: 4.8,
     description: 'The Mazda MX-5 RF is purity in motion. A lightweight roadster with near-perfect 50:50 weight distribution, a rev-happy naturally aspirated engine, and the retractable fastback roof — driving therapy at CHF 329/month.',
     features: {
-      performance: ['184 hp 2.0L SkyActiv-G', '0-100 in 7.0s', 'Rear-Wheel Drive', 'Kinematic Posture Control'],
-      interior: ['Recaro Sports Seats', 'Bose Sound System', 'Heads-Up Display', 'Nappa Leather'],
+      performance: [
+      '184 hp 2.0L SkyActiv-G',
+      '0-100 in 7.0s',
+      'Rear-Wheel Drive',
+      'Kinematic Posture Control'
+    ],
+      interior: [
+      'Recaro Sports Seats',
+      'Bose Sound System',
+      'Heads-Up Display',
+      'Nappa Leather'
+    ]
     },
     available: true,
   },
@@ -298,14 +388,24 @@ export const cars = [
     images: [
       'https://images.unsplash.com/photo-1590362891991-f776e747a588?w=800&q=80',
       'https://images.unsplash.com/photo-1541899481282-d53bffe3c35d?w=800&q=80',
-      'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80',
+      'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80'
     ],
     badge: null,
     rating: 4.6,
     description: 'The Toyota RAV4 PHEV combines everyday versatility with exceptional efficiency. Up to 75 km of electric range means most Swiss commutes happen on pure electricity, while the full hybrid backup eliminates range anxiety.',
     features: {
-      performance: ['306 hp PHEV System', '75 km Electric Range', 'E-Four AWD', 'Toyota Safety Sense'],
-      interior: ['8-way Power Seats', 'JBL Premium Audio', '10.5" Display', 'Digital Rearview Mirror'],
+      performance: [
+      '306 hp PHEV System',
+      '75 km Electric Range',
+      'E-Four AWD',
+      'Toyota Safety Sense'
+    ],
+      interior: [
+      '8-way Power Seats',
+      'JBL Premium Audio',
+      '10.5" Display',
+      'Digital Rearview Mirror'
+    ]
     },
     available: true,
   },
@@ -329,14 +429,24 @@ export const cars = [
     images: [
       'https://images.unsplash.com/photo-1614162692292-7ac56d7f7f1e?w=800&q=80',
       'https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?w=800&q=80',
-      'https://images.unsplash.com/photo-1617814076367-b759c7d7e738?w=800&q=80',
+      'https://images.unsplash.com/photo-1617814076367-b759c7d7e738?w=800&q=80'
     ],
     badge: 'Performance',
     rating: 4.9,
     description: 'The Audi RS e-tron GT is a masterpiece of electrified performance. Sharing its platform with the Porsche Taycan, it delivers 646 hp in overboost mode, 472 km of range, and enough style to turn every street into a runway.',
     features: {
-      performance: ['646 hp Dual Motor AWD', '0-100 in 3.3s', '472 km WLTP Range', '270kW DC Charging'],
-      interior: ['RS Sport Seats', 'Bang & Olufsen 3D', 'Full Digital OLED', 'Air Suspension'],
+      performance: [
+      '646 hp Dual Motor AWD',
+      '0-100 in 3.3s',
+      '472 km WLTP Range',
+      '270kW DC Charging'
+    ],
+      interior: [
+      'RS Sport Seats',
+      'Bang & Olufsen 3D',
+      'Full Digital OLED',
+      'Air Suspension'
+    ]
     },
     available: true,
   },
@@ -360,14 +470,24 @@ export const cars = [
     images: [
       'https://images.unsplash.com/photo-1556800572-1b8aeef2c54f?w=800&q=80',
       'https://images.unsplash.com/photo-1555215695-3004980ad54e?w=800&q=80',
-      'https://images.unsplash.com/photo-1607853202273-797f1c22a38e?w=800&q=80',
+      'https://images.unsplash.com/photo-1607853202273-797f1c22a38e?w=800&q=80'
     ],
     badge: null,
     rating: 4.7,
     description: 'The BMW X5 M60i packs a 530 hp V8 into the brand\'s beloved luxury SUV. It can transport five passengers in first-class comfort and still shame most sports cars at traffic lights.',
     features: {
-      performance: ['530 hp 4.4L V8 xDrive', '0-100 in 4.3s', 'Adaptive M Suspension', 'M Sport Brakes'],
-      interior: ['Merino Leather', 'Bowers & Wilkins Diamond', 'BMW Curved Display', 'Sky Lounge Panorama'],
+      performance: [
+      '530 hp 4.4L V8 xDrive',
+      '0-100 in 4.3s',
+      'Adaptive M Suspension',
+      'M Sport Brakes'
+    ],
+      interior: [
+      'Merino Leather',
+      'Bowers & Wilkins Diamond',
+      'BMW Curved Display',
+      'Sky Lounge Panorama'
+    ]
     },
     available: true,
   },
@@ -391,14 +511,24 @@ export const cars = [
     images: [
       'https://images.unsplash.com/photo-1616422285623-13ff0162193c?w=800&q=80',
       'https://images.unsplash.com/photo-1617704548623-340376564e68?w=800&q=80',
-      'https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?w=800&q=80',
+      'https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?w=800&q=80'
     ],
     badge: 'New Arrival',
     rating: 4.8,
     description: 'The Mercedes EQS is the electric S-Class — the pinnacle of luxury electric motoring. Its swooping aerodynamic shape, 770 km of range, and the jaw-dropping MBUX Hyperscreen make it the most advanced car on the road.',
     features: {
-      performance: ['333 hp Rear Motor', '770 km WLTP Range', 'Rear-Axle Steering', 'AIRMATIC Suspension'],
-      interior: ['MBUX Hyperscreen', 'Burmester 4D Sound', 'Magic Sky Control', 'Executive Rear Seats'],
+      performance: [
+      '333 hp Rear Motor',
+      '770 km WLTP Range',
+      'Rear-Axle Steering',
+      'AIRMATIC Suspension'
+    ],
+      interior: [
+      'MBUX Hyperscreen',
+      'Burmester 4D Sound',
+      'Magic Sky Control',
+      'Executive Rear Seats'
+    ]
     },
     available: true,
   },
@@ -422,14 +552,24 @@ export const cars = [
     images: [
       'https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?w=800&q=80',
       'https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=800&q=80',
-      'https://images.unsplash.com/photo-1544636331-e26879cd4d9b?w=800&q=80',
+      'https://images.unsplash.com/photo-1544636331-e26879cd4d9b?w=800&q=80'
     ],
     badge: null,
     rating: 4.9,
     description: 'Porsche\'s first fully electric sports car proves electrification and driving excitement are not mutually exclusive. The Taycan 4S launches with 571 hp in overboost and charges from 5-80% in just 22 minutes.',
     features: {
-      performance: ['571 hp Dual Motor AWD', '0-100 in 4.0s', '598 km WLTP Range', '270kW DC Charging'],
-      interior: ['18-way Adaptive Sport Seats', 'Burmester High-End 3D', 'Head-Up Display', 'InnoDrive'],
+      performance: [
+      '571 hp Dual Motor AWD',
+      '0-100 in 4.0s',
+      '598 km WLTP Range',
+      '270kW DC Charging'
+    ],
+      interior: [
+      '18-way Adaptive Sport Seats',
+      'Burmester High-End 3D',
+      'Head-Up Display',
+      'InnoDrive'
+    ]
     },
     available: true,
   },
@@ -453,14 +593,24 @@ export const cars = [
     images: [
       'https://images.unsplash.com/photo-1609521263047-f8f205293f24?w=800&q=80',
       'https://images.unsplash.com/photo-1541899481282-d53bffe3c35d?w=800&q=80',
-      'https://images.unsplash.com/photo-1590362891991-f776e747a588?w=800&q=80',
+      'https://images.unsplash.com/photo-1590362891991-f776e747a588?w=800&q=80'
     ],
     badge: 'Hot Deal',
     rating: 4.6,
     description: 'The Volvo C40 Recharge is a fully electric coupe-SUV with a leather-free vegan interior and Google built-in. Clean conscience, stunning design, and 476 km of range — Scandinavian sustainability at its finest.',
     features: {
-      performance: ['408 hp Dual Motor AWD', '0-100 in 4.9s', '476 km WLTP Range', 'One Pedal Drive'],
-      interior: ['Textile Seats (Vegan)', 'Harman Kardon Sound', 'Google Built-in', 'Panoramic Roof'],
+      performance: [
+      '408 hp Dual Motor AWD',
+      '0-100 in 4.9s',
+      '476 km WLTP Range',
+      'One Pedal Drive'
+    ],
+      interior: [
+      'Textile Seats (Vegan)',
+      'Harman Kardon Sound',
+      'Google Built-in',
+      'Panoramic Roof'
+    ]
     },
     available: true,
   },
@@ -484,14 +634,24 @@ export const cars = [
     images: [
       'https://images.unsplash.com/photo-1617814076367-b759c7d7e738?w=800&q=80',
       'https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?w=800&q=80',
-      'https://images.unsplash.com/photo-1614162692292-7ac56d7f7f1e?w=800&q=80',
+      'https://images.unsplash.com/photo-1614162692292-7ac56d7f7f1e?w=800&q=80'
     ],
     badge: null,
     rating: 4.5,
     description: 'The Audi A6 Avant is the definitive business wagon — elegant, capacious, and effortlessly refined. The 40 TDI combines a powerful diesel engine with quattro AWD for confident driving on any Swiss road.',
     features: {
-      performance: ['204 hp 2.0L TDI quattro', '0-100 in 7.9s', 'quattro AWD', 'Adaptive Cruise Assist'],
-      interior: ['Virtual Cockpit Plus', 'Bang & Olufsen Sound', '10.1" MMI Touch', 'Massage Seats'],
+      performance: [
+      '204 hp 2.0L TDI quattro',
+      '0-100 in 7.9s',
+      'quattro AWD',
+      'Adaptive Cruise Assist'
+    ],
+      interior: [
+      'Virtual Cockpit Plus',
+      'Bang & Olufsen Sound',
+      '10.1" MMI Touch',
+      'Massage Seats'
+    ]
     },
     available: true,
   },
@@ -515,14 +675,24 @@ export const cars = [
     images: [
       'https://images.unsplash.com/photo-1607853202273-797f1c22a38e?w=800&q=80',
       'https://images.unsplash.com/photo-1555215695-3004980ad54e?w=800&q=80',
-      'https://images.unsplash.com/photo-1556800572-1b8aeef2c54f?w=800&q=80',
+      'https://images.unsplash.com/photo-1556800572-1b8aeef2c54f?w=800&q=80'
     ],
     badge: 'Performance',
     rating: 4.8,
     description: 'The BMW i4 M50 proves that electric and M are perfect together. With 544 hp, sharp rear-biased handling, and 521 km of range, it\'s everything an M car should be — plus the freedom of instant electric torque.',
     features: {
-      performance: ['544 hp Dual Motor AWD', '0-100 in 3.9s', '521 km WLTP Range', 'M Sport Suspension'],
-      interior: ['M Sport Seats', 'Bowers & Wilkins Diamond', 'BMW Curved Display', 'Wireless Charging'],
+      performance: [
+      '544 hp Dual Motor AWD',
+      '0-100 in 3.9s',
+      '521 km WLTP Range',
+      'M Sport Suspension'
+    ],
+      interior: [
+      'M Sport Seats',
+      'Bowers & Wilkins Diamond',
+      'BMW Curved Display',
+      'Wireless Charging'
+    ]
     },
     available: true,
   },
@@ -546,14 +716,24 @@ export const cars = [
     images: [
       'https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?w=800&q=80',
       'https://images.unsplash.com/photo-1616422285623-13ff0162193c?w=800&q=80',
-      'https://images.unsplash.com/photo-1617704548623-340376564e68?w=800&q=80',
+      'https://images.unsplash.com/photo-1617704548623-340376564e68?w=800&q=80'
     ],
     badge: null,
     rating: 4.6,
     description: 'The new Mercedes C-Class sets the benchmark for business class sedans. Its MBUX infotainment with two large screens, refined interior materials, and the smooth 4MATIC drivetrain make every journey a pleasure.',
     features: {
-      performance: ['258 hp 2.0L 4MATIC AWD', '0-100 in 5.9s', 'AGILITY CONTROL Suspension', 'Active Brake Assist'],
-      interior: ['Nappa Leather Optional', 'Burmester Surround Sound', 'MBUX with AI', 'Panoramic Sunroof'],
+      performance: [
+      '258 hp 2.0L 4MATIC AWD',
+      '0-100 in 5.9s',
+      'AGILITY CONTROL Suspension',
+      'Active Brake Assist'
+    ],
+      interior: [
+      'Nappa Leather Optional',
+      'Burmester Surround Sound',
+      'MBUX with AI',
+      'Panoramic Sunroof'
+    ]
     },
     available: true,
   },
@@ -577,14 +757,24 @@ export const cars = [
     images: [
       'https://images.unsplash.com/photo-1609521263047-f8f205293f24?w=800&q=80',
       'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80',
-      'https://images.unsplash.com/photo-1580274455191-1c62238fa333?w=800&q=80',
+      'https://images.unsplash.com/photo-1580274455191-1c62238fa333?w=800&q=80'
     ],
     badge: 'Hot Deal',
     rating: 4.7,
     description: 'The Volkswagen Golf R is the ultimate hot hatch. 333 hp and 4Motion AWD in a practical hatchback body — it corners like it\'s on rails and fits five people and their skiing gear.',
     features: {
-      performance: ['333 hp 2.0L TSI 4Motion', '0-100 in 4.7s', '4Motion AWD', 'DCC Sport Chassis'],
-      interior: ['R Performance Seats', 'Harman Kardon Sound', 'Digital Cockpit Pro', 'R-Logo Ambient Light'],
+      performance: [
+      '333 hp 2.0L TSI 4Motion',
+      '0-100 in 4.7s',
+      '4Motion AWD',
+      'DCC Sport Chassis'
+    ],
+      interior: [
+      'R Performance Seats',
+      'Harman Kardon Sound',
+      'Digital Cockpit Pro',
+      'R-Logo Ambient Light'
+    ]
     },
     available: true,
   },
@@ -608,14 +798,24 @@ export const cars = [
     images: [
       'https://images.unsplash.com/photo-1544636331-e26879cd4d9b?w=800&q=80',
       'https://images.unsplash.com/photo-1580274455191-1c62238fa333?w=800&q=80',
-      'https://images.unsplash.com/photo-1552519507-da3b142c6e3d?w=800&q=80',
+      'https://images.unsplash.com/photo-1552519507-da3b142c6e3d?w=800&q=80'
     ],
     badge: null,
     rating: 4.7,
     description: 'Pure, lightweight, rear-wheel drive sports car joy. The Toyota GR86 is a love letter to driving enthusiasts who believe the journey is the destination. Its naturally aspirated flat-4 rewards every rev.',
     features: {
-      performance: ['234 hp 2.4L Boxer NA', '0-100 in 6.3s', 'Rear-Wheel Drive', 'Torsen LSD'],
-      interior: ['Alcantara Sport Seats', 'Apple CarPlay', '8" Multimedia Display', 'Launch Control'],
+      performance: [
+      '234 hp 2.4L Boxer NA',
+      '0-100 in 6.3s',
+      'Rear-Wheel Drive',
+      'Torsen LSD'
+    ],
+      interior: [
+      'Alcantara Sport Seats',
+      'Apple CarPlay',
+      '8" Multimedia Display',
+      'Launch Control'
+    ]
     },
     available: true,
   },
@@ -639,14 +839,24 @@ export const cars = [
     images: [
       'https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?w=800&q=80',
       'https://images.unsplash.com/photo-1617814076367-b759c7d7e738?w=800&q=80',
-      'https://images.unsplash.com/photo-1614162692292-7ac56d7f7f1e?w=800&q=80',
+      'https://images.unsplash.com/photo-1614162692292-7ac56d7f7f1e?w=800&q=80'
     ],
     badge: null,
     rating: 4.6,
     description: 'The Audi Q8 is the flagship SUV — a large, expressive coupe-SUV that dominates the road visually and dynamically. Its wide body, air suspension, and quattro AWD handle Swiss mountain passes with authority.',
     features: {
-      performance: ['340 hp 3.0L V6 quattro', '0-100 in 5.7s', 'Air Suspension', 'Predictive Efficiency Assist'],
-      interior: ['S Line Sport Seats', 'Bang & Olufsen 3D', 'Virtual Cockpit Plus', 'Panoramic Sunroof'],
+      performance: [
+      '340 hp 3.0L V6 quattro',
+      '0-100 in 5.7s',
+      'Air Suspension',
+      'Predictive Efficiency Assist'
+    ],
+      interior: [
+      'S Line Sport Seats',
+      'Bang & Olufsen 3D',
+      'Virtual Cockpit Plus',
+      'Panoramic Sunroof'
+    ]
     },
     available: true,
   },
@@ -670,14 +880,24 @@ export const cars = [
     images: [
       'https://images.unsplash.com/photo-1617814076367-b759c7d7e738?w=800&q=80',
       'https://images.unsplash.com/photo-1555215695-3004980ad54e?w=800&q=80',
-      'https://images.unsplash.com/photo-1607853202273-797f1c22a38e?w=800&q=80',
+      'https://images.unsplash.com/photo-1607853202273-797f1c22a38e?w=800&q=80'
     ],
     badge: null,
     rating: 4.5,
     description: 'The BMW 330e xDrive is the intelligent choice: drive electric in the city, switch to hybrid on the motorway. Up to 59 km of electric range and BMW\'s signature driving dynamics in one elegant package.',
     features: {
-      performance: ['292 hp PHEV xDrive', '59 km Electric Range', '0-100 in 5.6s', 'eDrive Modes'],
-      interior: ['Live Cockpit Professional', 'Harman Kardon Sound', 'Wireless Charging', 'Ambient Light'],
+      performance: [
+      '292 hp PHEV xDrive',
+      '59 km Electric Range',
+      '0-100 in 5.6s',
+      'eDrive Modes'
+    ],
+      interior: [
+      'Live Cockpit Professional',
+      'Harman Kardon Sound',
+      'Wireless Charging',
+      'Ambient Light'
+    ]
     },
     available: true,
   },
@@ -701,14 +921,24 @@ export const cars = [
     images: [
       'https://images.unsplash.com/photo-1617704548623-340376564e68?w=800&q=80',
       'https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?w=800&q=80',
-      'https://images.unsplash.com/photo-1616422285623-13ff0162193c?w=800&q=80',
+      'https://images.unsplash.com/photo-1616422285623-13ff0162193c?w=800&q=80'
     ],
     badge: null,
     rating: 4.6,
     description: 'The Mercedes GLC is the perfect blend of luxury and practicality. Its upright, spacious cabin, excellent off-road capability, and the latest MBUX technology make it a top choice for Swiss families.',
     features: {
-      performance: ['258 hp 2.0L 4MATIC AWD', '0-100 in 6.0s', 'AIRMATIC Optional', 'E-ACTIVE BODY CONTROL'],
-      interior: ['MBUX with Augmented Reality', 'Burmester Sound', 'Panoramic Sunroof', 'Ambient Lighting'],
+      performance: [
+      '258 hp 2.0L 4MATIC AWD',
+      '0-100 in 6.0s',
+      'AIRMATIC Optional',
+      'E-ACTIVE BODY CONTROL'
+    ],
+      interior: [
+      'MBUX with Augmented Reality',
+      'Burmester Sound',
+      'Panoramic Sunroof',
+      'Ambient Lighting'
+    ]
     },
     available: true,
   },
@@ -732,14 +962,24 @@ export const cars = [
     images: [
       'https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=800&q=80',
       'https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?w=800&q=80',
-      'https://images.unsplash.com/photo-1544636331-e26879cd4d9b?w=800&q=80',
+      'https://images.unsplash.com/photo-1544636331-e26879cd4d9b?w=800&q=80'
     ],
     badge: 'New Arrival',
     rating: 4.9,
     description: 'The all-new electric Macan Turbo is a revelation. Built on Porsche\'s PPE electric platform, it delivers 639 hp, supercar-grade acceleration, and 613 km of range in a practical SUV package.',
     features: {
-      performance: ['639 hp Dual Motor AWD', '0-100 in 3.3s', '613 km WLTP Range', 'Porsche Torque Vectoring+'],
-      interior: ['Curved Display + Passenger Screen', 'Bose Surround Sound', 'Sport Chrono Package', 'Air Suspension'],
+      performance: [
+      '639 hp Dual Motor AWD',
+      '0-100 in 3.3s',
+      '613 km WLTP Range',
+      'Porsche Torque Vectoring+'
+    ],
+      interior: [
+      'Curved Display + Passenger Screen',
+      'Bose Surround Sound',
+      'Sport Chrono Package',
+      'Air Suspension'
+    ]
     },
     available: true,
   },
@@ -763,14 +1003,24 @@ export const cars = [
     images: [
       'https://images.unsplash.com/photo-1590362891991-f776e747a588?w=800&q=80',
       'https://images.unsplash.com/photo-1541899481282-d53bffe3c35d?w=800&q=80',
-      'https://images.unsplash.com/photo-1609521263047-f8f205293f24?w=800&q=80',
+      'https://images.unsplash.com/photo-1609521263047-f8f205293f24?w=800&q=80'
     ],
     badge: null,
     rating: 4.5,
     description: 'The Mazda CX-60 PHEV brings Japanese craftsmanship to the premium SUV segment. Handcrafted Nappa leather, a unique inline-6 PHEV system, and Mazda\'s renowned Jinba Ittai driving philosophy.',
     features: {
-      performance: ['327 hp 2.5L PHEV AWD', '0-100 in 5.8s', '64 km Electric Range', 'i-ACTIV AWD'],
-      interior: ['Nappa Leather', '12-Speaker Bose Sound', '12.3" Display', 'Driver Personalisation'],
+      performance: [
+      '327 hp 2.5L PHEV AWD',
+      '0-100 in 5.8s',
+      '64 km Electric Range',
+      'i-ACTIV AWD'
+    ],
+      interior: [
+      'Nappa Leather',
+      '12-Speaker Bose Sound',
+      '12.3" Display',
+      'Driver Personalisation'
+    ]
     },
     available: true,
   },
@@ -794,14 +1044,24 @@ export const cars = [
     images: [
       'https://images.unsplash.com/photo-1552519507-da3b142c6e3d?w=800&q=80',
       'https://images.unsplash.com/photo-1580274455191-1c62238fa333?w=800&q=80',
-      'https://images.unsplash.com/photo-1556800572-1b8aeef2c54f?w=800&q=80',
+      'https://images.unsplash.com/photo-1556800572-1b8aeef2c54f?w=800&q=80'
     ],
     badge: null,
     rating: 4.4,
     description: 'The MINI Clubman is the most grown-up MINI. Its split barn doors, four proper doors, and impressive cargo space make it a unique proposition. ALL4 AWD adds all-weather confidence for Swiss roads.',
     features: {
-      performance: ['192 hp 2.0L ALL4 AWD', '0-100 in 6.8s', 'Sport Mode', 'Launch Control'],
-      interior: ['Piano Black Trim', 'Harman Kardon Sound', 'MINI Navigation', 'Head-Up Display'],
+      performance: [
+      '192 hp 2.0L ALL4 AWD',
+      '0-100 in 6.8s',
+      'Sport Mode',
+      'Launch Control'
+    ],
+      interior: [
+      'Piano Black Trim',
+      'Harman Kardon Sound',
+      'MINI Navigation',
+      'Head-Up Display'
+    ]
     },
     available: false,
   },
@@ -825,14 +1085,24 @@ export const cars = [
     images: [
       'https://images.unsplash.com/photo-1593941707882-a5bba14938c7?w=800&q=80',
       'https://images.unsplash.com/photo-1619767886558-efdc259cde1a?w=800&q=80',
-      'https://images.unsplash.com/photo-1609521263047-f8f205293f24?w=800&q=80',
+      'https://images.unsplash.com/photo-1609521263047-f8f205293f24?w=800&q=80'
     ],
     badge: 'Hot Deal',
     rating: 4.6,
     description: 'The Tesla Model 3 Long Range AWD is one of the most efficient electric vehicles ever built. With 629 km of range, over-the-air updates, and class-leading tech, it\'s the electric car that changed the industry.',
     features: {
-      performance: ['366 hp Dual Motor AWD', '0-100 in 4.4s', '629 km WLTP Range', 'Autopilot'],
-      interior: ['15.4" Touchscreen', 'Premium Audio System', 'Glass Roof', 'Heated Seats All Round'],
+      performance: [
+      '366 hp Dual Motor AWD',
+      '0-100 in 4.4s',
+      '629 km WLTP Range',
+      'Autopilot'
+    ],
+      interior: [
+      '15.4" Touchscreen',
+      'Premium Audio System',
+      'Glass Roof',
+      'Heated Seats All Round'
+    ]
     },
     available: true,
   },
@@ -856,14 +1126,24 @@ export const cars = [
     images: [
       'https://images.unsplash.com/photo-1556800572-1b8aeef2c54f?w=800&q=80',
       'https://images.unsplash.com/photo-1555215695-3004980ad54e?w=800&q=80',
-      'https://images.unsplash.com/photo-1580274455191-1c62238fa333?w=800&q=80',
+      'https://images.unsplash.com/photo-1580274455191-1c62238fa333?w=800&q=80'
     ],
     badge: null,
     rating: 4.8,
     description: 'The BMW Z4 M40i is the definitive open-top sports car. Its retractable soft-top opens in 10 seconds, its B58 inline-6 sounds magnificent, and its rear-wheel drive dynamics are endlessly rewarding.',
     features: {
-      performance: ['340 hp Inline-6 RWD', '0-100 in 4.5s', 'Variable Sport Steering', 'M Sport Brakes'],
-      interior: ['M Sport Seats', 'Harman Kardon Sound', 'BMW Live Cockpit Pro', 'Soft-Top in 10s'],
+      performance: [
+      '340 hp Inline-6 RWD',
+      '0-100 in 4.5s',
+      'Variable Sport Steering',
+      'M Sport Brakes'
+    ],
+      interior: [
+      'M Sport Seats',
+      'Harman Kardon Sound',
+      'BMW Live Cockpit Pro',
+      'Soft-Top in 10s'
+    ]
     },
     available: true,
   },
@@ -887,14 +1167,24 @@ export const cars = [
     images: [
       'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80',
       'https://images.unsplash.com/photo-1609521263047-f8f205293f24?w=800&q=80',
-      'https://images.unsplash.com/photo-1619767886558-efdc259cde1a?w=800&q=80',
+      'https://images.unsplash.com/photo-1619767886558-efdc259cde1a?w=800&q=80'
     ],
     badge: null,
     rating: 4.3,
     description: 'The Volkswagen ID.3 Pro S is the people\'s electric car. Practical, spacious, and with 549 km of range, it\'s perfectly suited for Swiss city driving and longer holiday trips alike.',
     features: {
-      performance: ['204 hp RWD', '0-100 in 7.3s', '549 km WLTP Range', 'Travel Assist'],
-      interior: ['12" Infotainment', 'Wireless Charging', 'Panoramic Roof', 'LED Matrix Headlights'],
+      performance: [
+      '204 hp RWD',
+      '0-100 in 7.3s',
+      '549 km WLTP Range',
+      'Travel Assist'
+    ],
+      interior: [
+      '12" Infotainment',
+      'Wireless Charging',
+      'Panoramic Roof',
+      'LED Matrix Headlights'
+    ]
     },
     available: true,
   },
@@ -918,14 +1208,24 @@ export const cars = [
     images: [
       'https://images.unsplash.com/photo-1614162692292-7ac56d7f7f1e?w=800&q=80',
       'https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?w=800&q=80',
-      'https://images.unsplash.com/photo-1552519507-da3b142c6e3d?w=800&q=80',
+      'https://images.unsplash.com/photo-1552519507-da3b142c6e3d?w=800&q=80'
     ],
     badge: 'Performance',
     rating: 4.7,
     description: 'The Audi TT RS Roadster is a masterpiece of compact performance engineering. Its legendary five-cylinder engine with a 3.7s 0-100 time and the open-air thrill of a roadster make it a truly special machine.',
     features: {
-      performance: ['394 hp 5-Cyl Turbo quattro', '0-100 in 3.7s', 'RS Sport Exhaust', 'DRC Dynamic Ride Control'],
-      interior: ['RS Sport Seats', 'Bang & Olufsen Sound', 'RS Monitor in Cockpit', 'Alcantara Steering Wheel'],
+      performance: [
+      '394 hp 5-Cyl Turbo quattro',
+      '0-100 in 3.7s',
+      'RS Sport Exhaust',
+      'DRC Dynamic Ride Control'
+    ],
+      interior: [
+      'RS Sport Seats',
+      'Bang & Olufsen Sound',
+      'RS Monitor in Cockpit',
+      'Alcantara Steering Wheel'
+    ]
     },
     available: true,
   },
@@ -949,14 +1249,24 @@ export const cars = [
     images: [
       'https://images.unsplash.com/photo-1621007947382-bb3c3994e3fb?w=800&q=80',
       'https://images.unsplash.com/photo-1590362891991-f776e747a588?w=800&q=80',
-      'https://images.unsplash.com/photo-1544636331-e26879cd4d9b?w=800&q=80',
+      'https://images.unsplash.com/photo-1544636331-e26879cd4d9b?w=800&q=80'
     ],
     badge: 'Performance',
     rating: 4.8,
     description: 'The Toyota GR Corolla is a no-compromise hot hatch built with motorsport DNA. Its 304 hp turbocharged three-cylinder engine and GR-FOUR AWD system make it one of the most driver-focused performance cars available today.',
     features: {
-      performance: ['304 hp 1.6L Turbo 3-Cyl', '0-100 in 5.0s', 'GR-FOUR AWD', 'Torsen LSD Front & Rear'],
-      interior: ['Recaro Sports Seats', 'GR Sport Steering Wheel', 'Carbon Fibre Trim', 'Launch Control'],
+      performance: [
+      '304 hp 1.6L Turbo 3-Cyl',
+      '0-100 in 5.0s',
+      'GR-FOUR AWD',
+      'Torsen LSD Front & Rear'
+    ],
+      interior: [
+      'Recaro Sports Seats',
+      'GR Sport Steering Wheel',
+      'Carbon Fibre Trim',
+      'Launch Control'
+    ]
     },
     available: true,
   },
@@ -980,14 +1290,24 @@ export const cars = [
     images: [
       'https://images.unsplash.com/photo-1580274455191-1c62238fa333?w=800&q=80',
       'https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=800&q=80',
-      'https://images.unsplash.com/photo-1544636331-e26879cd4d9b?w=800&q=80',
+      'https://images.unsplash.com/photo-1544636331-e26879cd4d9b?w=800&q=80'
     ],
     badge: 'Performance',
-    rating: 5.0,
+    rating: 5,
     description: 'The Porsche 911 GT3 RS is a road-legal racing car. Its naturally aspirated 4.0L flat-six screams to 9,000 rpm, while the active aerodynamics — including massive swan-neck rear wing — generate more downforce than any previous 911.',
     features: {
-      performance: ['525 hp 4.0L NA Flat-Six', '0-100 in 3.2s', 'Rear-Wheel Drive', 'Active Aerodynamics Package'],
-      interior: ['Full Roll Cage Optional', 'Alcantara Everywhere', 'Club Sport Package', 'Porsche Track Precision App'],
+      performance: [
+      '525 hp 4.0L NA Flat-Six',
+      '0-100 in 3.2s',
+      'Rear-Wheel Drive',
+      'Active Aerodynamics Package'
+    ],
+      interior: [
+      'Full Roll Cage Optional',
+      'Alcantara Everywhere',
+      'Club Sport Package',
+      'Porsche Track Precision App'
+    ]
     },
     available: true,
   },
@@ -1007,21 +1327,31 @@ export const cars = [
     residualValue: 65000,
     horsepower: 525,
     acceleration: '5.0s',
-    image: 'https://images.unsplash.com/photo-1606016159991-dfe4f2746ad5?w=800&q=80',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/d/d0/LandRoverDefender.JPG',
     images: [
-      'https://images.unsplash.com/photo-1606016159991-dfe4f2746ad5?w=800&q=80',
-      'https://images.unsplash.com/photo-1617704548623-340376564e68?w=800&q=80',
-      'https://images.unsplash.com/photo-1541899481282-d53bffe3c35d?w=800&q=80',
+      'https://upload.wikimedia.org/wikipedia/commons/d/d0/LandRoverDefender.JPG',
+      'https://upload.wikimedia.org/wikipedia/commons/d/d0/LandRoverDefender.JPG',
+      'https://upload.wikimedia.org/wikipedia/commons/d/d0/LandRoverDefender.JPG'
     ],
     badge: 'Popular Pick',
     rating: 4.7,
     description: 'The Land Rover Defender 110 V8 is the ultimate adventure machine with supercar credentials. Its supercharged 5.0L V8 produces 525 hp while the Terrain Response 2 system tackles any surface on earth — from Swiss mountain passes to desert dunes.',
     features: {
-      performance: ['525 hp 5.0L Supercharged V8', '0-100 in 5.0s', 'All-Terrain AWD', 'Terrain Response 2'],
-      interior: ['Configurable Seating for 5-7', 'Meridian Sound System', 'Pivi Pro Infotainment', 'Air Suspension'],
+      performance: [
+      '525 hp 5.0L Supercharged V8',
+      '0-100 in 5.0s',
+      'All-Terrain AWD',
+      'Terrain Response 2'
+    ],
+      interior: [
+      'Configurable Seating for 5-7',
+      'Meridian Sound System',
+      'Pivi Pro Infotainment',
+      'Air Suspension'
+    ]
     },
     available: true,
-  },
+  }
 ]
 
 export const hotDeals = cars.filter(c => c.badge === 'Hot Deal')
@@ -1031,4 +1361,5 @@ export const dreamCars = [
   ...cars.filter(c => DREAM_PINNED_IDS.includes(c.id)),
   ...cars.filter(c => !DREAM_PINNED_IDS.includes(c.id) && c.pricePerMonth >= 900),
 ]
+
 export const convertibles = cars.filter(c => c.type === 'Convertible')

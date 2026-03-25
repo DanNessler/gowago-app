@@ -6,6 +6,7 @@ import Footer from '../components/layout/Footer'
 import SearchBar from '../components/ui/SearchBar'
 import CarSlider from '../components/ui/CarSlider'
 import { hotDeals, dreamCars, convertibles } from '../data/cars'
+import { homeContent as c } from '../data/content'
 
 const stagger = {
   initial: {},
@@ -54,13 +55,13 @@ export default function HomePage() {
                 variants={fadeUp}
                 className="font-headline font-extrabold text-4xl md:text-6xl lg:text-7xl text-on-surface leading-tight mb-6"
               >
-                Get your next ride faster than a parking ticket.
+                {c.hero.headline}
               </motion.h1>
 
               <motion.p variants={fadeUp} className="text-on-surface-variant text-xl mb-10">
-                Starting as low as{' '}
-                <span className="font-bold text-primary">CHF 149.-/month.</span>
-                {' '}Over 30 premium cars. Zero BS.
+                {c.hero.subtext}{' '}
+                <span className="font-bold text-primary">{c.hero.price}</span>
+                {' '}{c.hero.priceNote}
               </motion.p>
 
               <motion.div variants={fadeUp} className="max-w-2xl mx-auto" ref={heroSearchRef}>
@@ -68,7 +69,7 @@ export default function HomePage() {
               </motion.div>
 
               <motion.div variants={fadeUp} className="flex flex-wrap justify-center gap-3 mt-8">
-                {['SUV', 'Electric', 'Sedan', 'Convertible', 'Coupe'].map(type => (
+                {c.hero.filterTags.map(type => (
                   <button
                     key={type}
                     onClick={() => navigate(`/search?q=${type}`)}
@@ -86,8 +87,8 @@ export default function HomePage() {
         <motion.section {...sectionEntry} className="section-block bg-pastel-blue px-8 py-12">
           <CarSlider
             cars={hotDeals}
-            title="🔥 Smoking hot deals"
-            subtitle="Limited time offers — before they're gone"
+            title={c.hotDeals.title}
+            subtitle={c.hotDeals.subtitle}
           />
         </motion.section>
 
@@ -95,8 +96,8 @@ export default function HomePage() {
         <motion.section {...sectionEntry} className="section-block bg-pastel-pink px-8 py-12">
           <CarSlider
             cars={dreamCars}
-            title="✨ Dream cars"
-            subtitle="For those who refuse to compromise"
+            title={c.dreamCars.title}
+            subtitle={c.dreamCars.subtitle}
           />
         </motion.section>
 
@@ -104,8 +105,8 @@ export default function HomePage() {
         <motion.section {...sectionEntry} className="section-block bg-pastel-yellow px-8 py-12">
           <CarSlider
             cars={convertibles}
-            title="☀️ Summer Special: Topless"
-            subtitle="Convertibles — because Swiss summers deserve open skies"
+            title={c.convertibles.title}
+            subtitle={c.convertibles.subtitle}
           />
         </motion.section>
 
@@ -116,7 +117,7 @@ export default function HomePage() {
             className="inline-flex items-center gap-3 bg-on-surface text-surface-container-lowest px-10 py-5 rounded-full font-bold text-lg hover:bg-primary transition-colors cursor-pointer shadow-playful"
           >
             <span className="material-symbols-outlined">directions_car</span>
-            Find more rides
+            {c.ctaButton}
             <span className="material-symbols-outlined">arrow_forward</span>
           </button>
         </motion.div>
@@ -125,15 +126,11 @@ export default function HomePage() {
         <motion.section {...sectionEntry} className="section-block bg-pastel-green px-8 py-20">
           <div className="max-w-5xl mx-auto">
             <div className="text-center mb-12">
-              <h2 className="font-headline font-bold text-3xl md:text-4xl text-on-surface mb-3">How it works</h2>
-              <p className="text-on-surface-variant text-lg">Three easy steps to your dream car</p>
+              <h2 className="font-headline font-bold text-3xl md:text-4xl text-on-surface mb-3">{c.howItWorks.title}</h2>
+              <p className="text-on-surface-variant text-lg">{c.howItWorks.subtitle}</p>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-              {[
-                { icon: 'search', step: '01', title: 'Find your ride', desc: 'Browse 30+ premium cars. Filter by make, type, budget. No pressure, just pure discovery.' },
-                { icon: 'payments', step: '02', title: 'Pay transparently', desc: 'Choose your lease terms. We work with Migrosbank for the best Swiss rates. No hidden fees.' },
-                { icon: 'emoji_transportation', step: '03', title: 'Buckle up', desc: 'Sign digitally, get verified, and your car gets delivered right to your door. That\'s it.' },
-              ].map((item) => (
+              {c.howItWorks.steps.map((item) => (
                 <div key={item.step} className="bg-white/60 rounded-[2rem] p-8 text-center">
                   <motion.div
                     whileHover={{ rotate: 12, scale: 1.1 }}
@@ -162,7 +159,7 @@ export default function HomePage() {
                 className="rounded-[2.5rem] overflow-hidden aspect-[4/3] shadow-playful"
               >
                 <img
-                  src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=800&q=80"
+                  src={c.socialProof.image}
                   alt="Happy gowago customer"
                   className="w-full h-full object-cover"
                   loading="lazy"
@@ -176,8 +173,8 @@ export default function HomePage() {
                     <span key={s} className="material-symbols-outlined text-[#FBBF24]" style={{ fontSize: '16px', fontFamily: 'Material Symbols Outlined', fontVariationSettings: "'FILL' 1" }}>star</span>
                   ))}
                 </div>
-                <p className="text-on-surface text-sm font-medium leading-snug">"Got my dream Porsche in 3 days. Unbelievable service."</p>
-                <p className="text-on-surface-variant text-xs mt-2">— Marco B., Zürich</p>
+                <p className="text-on-surface text-sm font-medium leading-snug">"{c.socialProof.testimonialQuote}"</p>
+                <p className="text-on-surface-variant text-xs mt-2">— {c.socialProof.testimonialAuthor}</p>
               </div>
             </div>
 
@@ -185,15 +182,15 @@ export default function HomePage() {
             <div>
               <span className="inline-flex items-center gap-2 bg-white/80 text-primary px-4 py-1.5 rounded-full text-sm font-semibold mb-6">
                 <span className="material-symbols-outlined" style={{ fontSize: '16px' }}>verified</span>
-                Trusted by 50,000+ Swiss drivers
+                {c.socialProof.trustBadge}
               </span>
 
               <h2 className="font-headline font-bold text-3xl md:text-4xl text-on-surface leading-tight mb-6">
-                Switzerland's most loved car leasing platform.
+                {c.socialProof.headline}
               </h2>
 
               <p className="text-on-surface-variant text-lg leading-relaxed mb-8">
-                We partner with Migrosbank to offer the most competitive leasing rates in Switzerland. Fully transparent, fully digital, fully yours.
+                {c.socialProof.body}
               </p>
 
               {/* Migrosbank badge */}
@@ -202,8 +199,8 @@ export default function HomePage() {
                   <span className="text-white font-black text-sm">MB</span>
                 </div>
                 <div>
-                  <div className="font-bold text-on-surface text-sm">Migrosbank Partner</div>
-                  <div className="text-xs text-on-surface-variant">Best Swiss Leasing Rates</div>
+                  <div className="font-bold text-on-surface text-sm">{c.socialProof.migrosTitle}</div>
+                  <div className="text-xs text-on-surface-variant">{c.socialProof.migrosSubtitle}</div>
                 </div>
               </div>
 
@@ -211,7 +208,7 @@ export default function HomePage() {
                 onClick={() => navigate('/search')}
                 className="inline-flex items-center gap-2 bg-primary text-white px-8 py-4 rounded-full font-semibold hover:bg-primary-container transition-colors cursor-pointer shadow-playful"
               >
-                Start browsing
+                {c.socialProof.ctaButton}
                 <span className="material-symbols-outlined" style={{ fontSize: '20px' }}>arrow_forward</span>
               </button>
             </div>
