@@ -1081,11 +1081,11 @@ export const cars = [
     residualValue: 24000,
     horsepower: 366,
     acceleration: '4.4s',
-    image: 'https://images.unsplash.com/photo-1593941707882-a5bba14938c7?w=800&q=80',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/4/4c/Tesla_Morocco.jpg?w=800&q=80',
     images: [
-      'https://images.unsplash.com/photo-1593941707882-a5bba14938c7?w=800&q=80',
-      'https://images.unsplash.com/photo-1619767886558-efdc259cde1a?w=800&q=80',
-      'https://images.unsplash.com/photo-1609521263047-f8f205293f24?w=800&q=80'
+      'https://upload.wikimedia.org/wikipedia/commons/4/4c/Tesla_Morocco.jpg?w=800&q=80',
+      'https://upload.wikimedia.org/wikipedia/commons/4/4c/Tesla_Morocco.jpg?w=800&q=80',
+      'https://images.unsplash.com/photo-1593941707882-a5bba14938c7?w=800&q=80'
     ],
     badge: 'Hot Deal',
     rating: 4.6,
