@@ -1163,11 +1163,11 @@ export const cars = [
     residualValue: 14500,
     horsepower: 204,
     acceleration: '7.3s',
-    image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80',
+    image: 'https://live.staticflickr.com/65535/48753683307_19d8f64c7e_b.jpg?w=800&q=80',
     images: [
-      'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80',
-      'https://images.unsplash.com/photo-1609521263047-f8f205293f24?w=800&q=80',
-      'https://images.unsplash.com/photo-1619767886558-efdc259cde1a?w=800&q=80'
+      'https://live.staticflickr.com/65535/48753683307_19d8f64c7e_b.jpg?w=800&q=80',
+      'https://live.staticflickr.com/65535/48753683307_19d8f64c7e_b.jpg?w=800&q=80',
+      'https://live.staticflickr.com/65535/48753683307_19d8f64c7e_b.jpg?w=800&q=80'
     ],
     badge: null,
     rating: 4.3,
