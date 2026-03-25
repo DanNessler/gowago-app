@@ -1248,8 +1248,8 @@ export const cars = [
     image: 'https://images.unsplash.com/photo-1621007947382-bb3c3994e3fb?w=800&q=80',
     images: [
       'https://images.unsplash.com/photo-1621007947382-bb3c3994e3fb?w=800&q=80',
-      'https://images.unsplash.com/photo-1590362891991-f776e747a588?w=800&q=80',
-      'https://images.unsplash.com/photo-1544636331-e26879cd4d9b?w=800&q=80'
+      'https://images.unsplash.com/photo-1621007947382-bb3c3994e3fb?w=800&q=80',
+      'https://images.unsplash.com/photo-1621007947382-bb3c3994e3fb?w=800&q=80'
     ],
     badge: 'Performance',
     rating: 4.8,
