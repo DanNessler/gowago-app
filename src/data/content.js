@@ -5,9 +5,10 @@ export const homeContent = {
     price: 'CHF 149.-/month.',
     priceNote: 'Cheaper than your health insurance.',
     filterTags: [
-      'Search for your next... Porsche',
+      'Land Rover',
+      'Porsche',
       'Tesla',
-      'BMW etc...'
+      'BMW'
     ],
   },
   hotDeals: { title: '🔥 Smoking hot deals', subtitle: 'Limited time offers — before they\'re gone' },
