@@ -47,7 +47,7 @@ export default function HomePage() {
       <main className="pt-20 space-y-4">
 
         {/* [1] Hero */}
-        <section className="section-block bg-white px-8 py-10 md:py-16">
+        <section className="section-block bg-white px-4 sm:px-8 py-10 md:py-16">
           <div className="max-w-4xl mx-auto text-center">
             <motion.div variants={stagger} initial="initial" animate="animate">
               <motion.h1

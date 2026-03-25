@@ -63,9 +63,9 @@ export default function SearchBar({ large = false, dropUp = false }) {
   const showDropdown = focused && suggestions.length > 0
 
   return (
-    <div className="relative w-full">
-      <form onSubmit={handleSubmit} className="relative">
-        <div className={`flex items-center gap-3 bg-white rounded-full shadow-playful border-2 transition-all ${focused ? 'border-primary shadow-[0_0_0_4px_rgba(87,18,149,0.08)]' : 'border-transparent'} ${large ? 'px-6 py-4' : 'px-4 py-3'}`}>
+    <div className="relative w-full min-w-0">
+      <form onSubmit={handleSubmit} className="relative w-full min-w-0">
+        <div className={`flex items-center gap-2 bg-white rounded-full shadow-playful border-2 transition-all overflow-hidden ${focused ? 'border-primary shadow-[0_0_0_4px_rgba(87,18,149,0.08)]' : 'border-transparent'} ${large ? 'px-4 py-3 sm:px-6 sm:py-4' : 'px-3 py-2.5 sm:px-4 sm:py-3'}`}>
           <span className="material-symbols-outlined text-outline flex-shrink-0" style={{ fontSize: large ? '24px' : '20px' }}>
             search
           </span>
@@ -77,7 +77,7 @@ export default function SearchBar({ large = false, dropUp = false }) {
             onBlur={() => setTimeout(() => setFocused(false), 200)}
             onKeyDown={handleKeyDown}
             placeholder="Try BMW, Porsche 911, Tesla, SUV..."
-            className={`flex-1 bg-transparent outline-none text-on-surface placeholder-outline ${large ? 'text-lg' : 'text-base'}`}
+            className={`flex-1 min-w-0 bg-transparent outline-none text-on-surface placeholder-outline ${large ? 'text-base sm:text-lg' : 'text-sm sm:text-base'}`}
             aria-label="Search for cars"
             aria-autocomplete="list"
             aria-expanded={showDropdown}
@@ -85,12 +85,12 @@ export default function SearchBar({ large = false, dropUp = false }) {
           {/* Mobile: icon-only round button */}
           <motion.button
             type="submit"
-            className={`flex-shrink-0 bg-primary text-white rounded-full cursor-pointer flex items-center justify-center sm:hidden ${large ? 'w-11 h-11' : 'w-9 h-9'}`}
+            className={`flex-shrink-0 bg-primary text-white rounded-full cursor-pointer flex items-center justify-center sm:hidden ${large ? 'w-10 h-10' : 'w-8 h-8'}`}
             whileHover={{ scale: 1.02 }}
             whileTap={{ scale: 0.95 }}
             aria-label="Find your ride"
           >
-            <span className="material-symbols-outlined" style={{ fontSize: large ? '22px' : '18px' }}>search</span>
+            <span className="material-symbols-outlined" style={{ fontSize: '18px' }}>search</span>
           </motion.button>
           {/* Desktop: text button */}
           <motion.button
