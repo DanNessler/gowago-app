@@ -82,9 +82,20 @@ export default function SearchBar({ large = false, dropUp = false }) {
             aria-autocomplete="list"
             aria-expanded={showDropdown}
           />
+          {/* Mobile: icon-only round button */}
           <motion.button
             type="submit"
-            className={`flex-shrink-0 bg-primary text-white rounded-full font-semibold cursor-pointer whitespace-nowrap ${large ? 'px-8 py-3 text-base' : 'px-5 py-2 text-sm'}`}
+            className={`flex-shrink-0 bg-primary text-white rounded-full cursor-pointer flex items-center justify-center sm:hidden ${large ? 'w-11 h-11' : 'w-9 h-9'}`}
+            whileHover={{ scale: 1.02 }}
+            whileTap={{ scale: 0.95 }}
+            aria-label="Find your ride"
+          >
+            <span className="material-symbols-outlined" style={{ fontSize: large ? '22px' : '18px' }}>search</span>
+          </motion.button>
+          {/* Desktop: text button */}
+          <motion.button
+            type="submit"
+            className={`hidden sm:flex flex-shrink-0 bg-primary text-white rounded-full font-semibold cursor-pointer whitespace-nowrap ${large ? 'px-8 py-3 text-base' : 'px-5 py-2 text-sm'}`}
             whileHover={{ scale: 1.02 }}
             whileTap={{ scale: 0.95 }}
           >
