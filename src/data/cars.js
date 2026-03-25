@@ -1248,8 +1248,8 @@ export const cars = [
     image: 'https://images.unsplash.com/photo-1621007947382-bb3c3994e3fb?w=800&q=80',
     images: [
       'https://images.unsplash.com/photo-1621007947382-bb3c3994e3fb?w=800&q=80',
-      'https://images.unsplash.com/photo-1621007947382-bb3c3994e3fb?w=800&q=80',
-      '/images/Marika_Car_Small.jpg'
+      '/images/Marika_Car_Small.jpg',
+      'https://images.unsplash.com/photo-1621007947382-bb3c3994e3fb?w=800&q=80'
     ],
     badge: 'Performance',
     rating: 4.8,
@@ -1289,7 +1289,7 @@ export const cars = [
     image: 'https://images.unsplash.com/photo-1580274455191-1c62238fa333?w=800&q=80',
     images: [
       'https://images.unsplash.com/photo-1580274455191-1c62238fa333?w=800&q=80',
-      'https://images.unsplash.com/photo-1580274455191-1c62238fa333?w=800&q=80',
+      '/images/Team_Photos_2025_Jan-03.webp',
       '/images/Team_Photos_2025_Jan-03.webp'
     ],
     badge: 'Performance',
@@ -1330,8 +1330,8 @@ export const cars = [
     image: 'https://upload.wikimedia.org/wikipedia/commons/d/d0/LandRoverDefender.JPG?w=800&q=80',
     images: [
       'https://upload.wikimedia.org/wikipedia/commons/d/d0/LandRoverDefender.JPG?w=800&q=80',
-      'https://upload.wikimedia.org/wikipedia/commons/d/d0/LandRoverDefender.JPG?w=800&q=80',
-      '/images/Paul_car.webp'
+      '/images/Paul_car.webp',
+      'https://upload.wikimedia.org/wikipedia/commons/d/d0/LandRoverDefender.JPG?w=800&q=80'
     ],
     badge: 'Popular Pick',
     rating: 4.7,
